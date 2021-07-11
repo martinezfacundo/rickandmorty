@@ -1,0 +1,49 @@
+.container-general-navbar {
+    background-color: rgba(0, 0, 0, .15);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar-container {
+    height: 10vh;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    margin: 0;
+}
+
+.brand span {
+    font-weight: 100;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link:hover {
+    color: rgb(129, 186, 224);
+}
+
+.link {
+    margin-left: 8vw;
+}
+
+.link-brand {
+    text-decoration: none;
+    color: white;
+}
