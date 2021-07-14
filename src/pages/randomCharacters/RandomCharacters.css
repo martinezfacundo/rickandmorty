@@ -34,7 +34,7 @@
 }
 
 .social a:hover {
-    color: rgb(129, 186, 224);
+    color: #b5edfc;
 }
 
 .characters-container {
@@ -44,4 +44,27 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.characters {
+    margin-top: 7vh;
+}
+
+.characters-container button {
+    border: none;
+    background-color: #b5edfc;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 2vw;
+    color: black;
+    font-size: calc(.8vw + .2rem);
+    font-weight: 300;
+    transform: translateY(3vh);
+}
+
+.characters-container button:hover {
+    background-color: #91ddf1;
+    cursor: pointer;
 }

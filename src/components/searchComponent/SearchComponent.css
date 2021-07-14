@@ -24,7 +24,7 @@
     height: 3vh;
     border: none;
     border-radius: 1vw;
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
 }
 
 .search-input:focus {
@@ -57,5 +57,5 @@
 }
 
 .social a:hover {
-    color: rgb(129, 186, 224);
+    color: #b5edfc;
 }

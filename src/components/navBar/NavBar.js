@@ -7,7 +7,7 @@ function NavBar() {
         <div className='container-general-navbar'>
             <div className='navbar-container'>
                 <div className='brand-container'>
-                    <Link className='link-brand' to='/'><h1 className='brand'>Rick & Morty <span>API</span></h1></Link>  
+                    <Link className='link-brand' to='/'><h1 className='brand'>Rick & Morty <span>API Game</span></h1></Link>  
                 </div>
                 <nav className='nav-container'>
                     <Link className='link' to='/'>home</Link>

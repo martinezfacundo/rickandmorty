@@ -1,0 +1,15 @@
+.characterscontainer-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5vw;
+    width: 90%;
+    height: 65vh;
+    place-items: center;
+    overflow-y: scroll;
+}
+
+/*poco intuitivo*/
+.characterscontainer-container::-webkit-scrollbar {
+    background-color: #b5edfc;
+    width: .3vw;
+}
