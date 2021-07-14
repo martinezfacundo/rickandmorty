@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    background-image: url('../../assets/background-characters.jpg');
+    background-image: url('../../assets/bg-tres.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,6 +25,7 @@
     border: none;
     border-radius: 1vw;
     margin-bottom: 5vh;
+    text-align: center;
 }
 
 .search-input:focus {
@@ -34,7 +35,7 @@
 .container-degradado-search {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, .65);
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .social-container {

@@ -24,7 +24,7 @@ function SearchComponent ({type}) {
             <div className='search-page'>
                 <div className='search-container'>
                     <form>
-                        <input onChange={handleChange} className='search-input' name='selected-character' placeholder='Tu personaje' type='text' />
+                        <input onChange={handleChange} className='search-input' name='selected-character' placeholder='Escribi lo que estas buscando' type='text' />
                     </form>
                     {search && results && <ResultsContainer data={results.results} type={type}/>}
                 </div>

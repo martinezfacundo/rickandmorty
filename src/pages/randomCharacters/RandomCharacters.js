@@ -1,10 +1,16 @@
-import React,{useState, useEffect} from 'react'
+import React, {createContext, useContext, useState, useEffect} from 'react'
 import './RandomCharacters.css'
+import {BackContext} from '../../components/context/BackContext'
 import RandomCharactersContainer from '../../components/randomCharactersContainer/RandomCharactersContainer'
 
 function RandomCharacters () {
 
     const [characters, setCharacters] = useState([])
+    const context = useContext(BackContext)
+
+    useEffect(() => {
+        context.setCategory('random-characters')
+    }, [])
 
     const getRandomInt = (min, max) => {
         return(Math.floor(Math.random() * (max - min)) + min);

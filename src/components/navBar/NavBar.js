@@ -12,7 +12,7 @@ function NavBar() {
                 <nav className='nav-container'>
                     <Link className='link' to='/'>home</Link>
                     <Link className='link' to='/random-characters'>Random</Link>
-                    <Link className='link' to='/search-characters'>Search</Link>
+                    <Link className='link' to='/search'>Search</Link>
                 </nav>
             </div>
         </div>

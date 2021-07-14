@@ -1,5 +1,5 @@
 .characters-page {
-    background-image: url('../../assets/background-characters.jpg');
+    background-image: url('../../assets/bg-tres.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11,7 +11,7 @@
 .container-degradado-characters {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, .65);
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .social-container {

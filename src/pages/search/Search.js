@@ -1,10 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useContext, createContext } from 'react'
 import './Search.css'
 import SearchComponent from '../../components/searchComponent/SearchComponent'
+import {BackContext} from '../../components/context/BackContext'
+
 
 function SearchCharacters () {
 
     const [config, setConfig] = useState()
+    const context = useContext(BackContext)
+
+    useEffect(() => {
+        context.setCategory('search')
+    }, [])
 
     return (
         <div className='search-page'>
